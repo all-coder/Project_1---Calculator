@@ -2,11 +2,7 @@ import 'package:flutter/material.dart';
 import '../widgets/button.dart';
 import 'package:google_fonts/google_fonts.dart';
 import '../process/parser.dart';
-// e63946-red
-// f1faee - white
-// a8dadc-lightblue
-// 457b9d - somewhat dark blue
-// 1d3557 - darkblue
+
 
 class MainCalc extends StatefulWidget {
   const MainCalc({super.key});
