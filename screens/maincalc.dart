@@ -188,6 +188,7 @@ class _MainCalcState extends State<MainCalc> {
                     Button(
                       num: '<',
                       pushVal: () {
+                        //need to fix this piece of logic for backspace
                         final expressionArray = calc.text.split("");
                         final array = expressionArray.removeAt(0);
                         calc.value = TextEditingValue(text: array);
